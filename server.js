@@ -48,7 +48,7 @@ app.post('/contact', async (req, res) => {
     const recipients = [
       'biz.dev@texpro-kgroup.com.tn',
       'slim.tounsi@texpro-kgroup.com.tn',
-      'm.abidi.contact@gmail.com'
+     
     ].join(', ');
 
     // Create HTML email template
